@@ -1,3 +1,5 @@
+var Pushability = require('../src/models').Pushability
+
 module.exports = {
   validUserAttributes: {
     name: "User test",
@@ -15,10 +17,10 @@ module.exports = {
     description: "Description Test Description Test",
     address: "Address Test",
     date: Date.now()
-  }
+  },
 
   validPushabilitytAttributes: {
-    expiresAt: Date.now()
+    expiresAt: Date.now(),
     type: Pushability.types.EVENT
   }
 }

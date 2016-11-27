@@ -16,4 +16,9 @@ module.exports = {
     address: "Address Test",
     date: Date.now()
   }
+
+  validPushabilitytAttributes: {
+    expiresAt: Date.now()
+    type: Pushability.types.EVENT
+  }
 }
